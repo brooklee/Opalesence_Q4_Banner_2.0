@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="644" height="1024">
+<rect x="0" y="0" width="644" height="1024" fill="#f5c2c1" />
+<g transform="scale(4.000000) translate(0.5 0.5)">
+<polygon fill="#f1ffff" fill-opacity="0.501961" points="150,149 -16,245 176,271" />
+<polygon fill="#ff8886" fill-opacity="0.501961" points="173,183 160,-16 -16,4" />
+<polygon fill="#faffff" fill-opacity="0.501961" points="7,157 -16,254 168,258" />
+<polygon fill="#cafcfb" fill-opacity="0.501961" points="41,78 100,149 118,75" />
+<polygon fill="#f62d29" fill-opacity="0.501961" points="73,132 48,132 52,197" />
+<polygon fill="#ff8f8e" fill-opacity="0.501961" points="38,-16 49,154 -13,166" />
+<polygon fill="#899393" fill-opacity="0.501961" points="148,233 59,233 108,218" />
+<polygon fill="#ffffff" fill-opacity="0.501961" points="33,271 45,154 -16,172" />
+<polygon fill="#ffffff" fill-opacity="0.501961" points="176,157 48,221 176,222" />
+<polygon fill="#c0b4b1" fill-opacity="0.501961" points="39,196 117,111 115,199" />
+<polygon fill="#ff8483" fill-opacity="0.501961" points="115,16 176,172 118,152" />
+<polygon fill="#ff8685" fill-opacity="0.501961" points="82,76 -16,-16 20,76" />
+<polygon fill="#ffffff" fill-opacity="0.501961" points="176,171 116,156 157,271" />
+<polygon fill="#566465" fill-opacity="0.501961" points="141,229 126,223 144,221" />
+<polygon fill="#fdffff" fill-opacity="0.501961" points="83,240 -16,271 25,155" />
+</g>
+</svg>

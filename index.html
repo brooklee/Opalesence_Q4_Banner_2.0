@@ -1,0 +1,1092 @@
+<!doctype html>
+
+
+<html class="">
+<!-- TODO: remove "anonymous" class name for -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="initial-scale=1.0, max-scale=1.0, width=device-width"/>
+
+    <meta name="mUserName" content="foo.bar@ultradent.com"/>
+
+    <!-- Add meta description and meta keywords -->
+    <meta name="Keywords"
+          content="Opalesence, Opal-escence, Opalecence, Opalesense, Opalescense, Opalessence, Opal Escence, Opalscence, Opal-a-scence, Opulescence, Opulesense, Opulessence"/>
+    <meta http-equiv="Expires" content="0"/>
+    <!-- robots -->
+    <!-- page title - overridden by asp:content on pages or page layouts -->
+    <title> Ultradent </title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="https://ultradentcdn.azureedge.net/PublishingImages/favicon.ico?rev=23"
+          type="image/vnd.microsoft.icon"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200i,200,400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <link rel="stylesheet" href="css/global.min.css"/>
+
+    <!-- Adobe DTM tags -->
+    <!--<script-->
+    <!--src='//assets.adobedtm.com/3eeb6cc037ee64470cd42b2a42f89adaf338706f/satelliteLib-146eac914843da30cbdb0843b6f92f8b47154fda-staging.js'></script>-->
+    <script>
+        window.upi = {
+            User: {
+                info: {isLogged: true}
+            },
+            env: {
+                IS_ECOMMERCE: true,
+                COUNTRY_CODE: 'en-us'
+            },
+            conf: {
+                HAS_PRICE_RESTRICTIONS: true,
+                PHONE_TOLL_FREE: '*1-800-1234-5432*',
+                features: {
+                    ENHANCED_SEARCH_SUGGESTIONS_ENABLED: true,
+                    QUICKLISTS_ENABLED: true,
+                    FREESHIPPING_MSG_ENABLED: true,
+                    CART_LAYER_ENABLED: true,
+                    CART_LAYER_TYPE: 'flyout' // flyout | dropdown
+                }
+            },
+            paths: {
+                ORIGIN: location.origin || 'http://' + location.host,
+                ORIGIN_CDN: 'https://ultradentcdn.azureedge.net',
+                SITE_URL: 'http://' + location.hostname + ':3095',
+                IMAGES_ORIGIN: 'https://images.ultradent.com',
+                IMAGES_ORIGIN_CDN: 'https://ultradentimagescdn.azureedge.net',
+                STORE_ORIGIN: 'http://' + location.hostname + ':3095',
+                STORE_URL: 'http://' + location.hostname + ':3095'
+            }
+        };
+    </script>
+    <script type="text/javascript" src="/css/icon/grunticon.loader.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        grunticon(
+            ['css/icon/icons.data.svg.css', 'css/icon/icons.data.png.css', 'css/icon/icons.fallback.css'],
+            grunticon.svgLoadedCallback
+        );
+    </script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,fetch&flags=gated&ua=ie/10.0"></script>
+
+    <script src="js/common.min.js"></script>
+    <script src="js/vendor.min.js"></script>
+    <script src="js/global.min.js"></script>
+</head>
+
+<body id="top" class="">
+
+
+<!-- NOTE -> aspnetForm is required for now since this element is used as a hook for form validation -->
+<form action="" id="aspnetForm" class="w-full">
+    <!-- Begin Ultradent Template Content -->
+    <div id="page-container" class="flex flex-col min-w-full">
+        <div id="header-outer"
+             class="header-outer z-10 fixed pin-t lg:static w-full flex-auto flex-no-grow flex-no-shrink bg-darken-75">
+            <header id="header--main">
+                <div id="nav-bar--desktop"
+                     class="nav-bar--desktop flex justify-between items-center lg:items-start py-0 pad-content lg:h-24 bg-grey-lightest">
+                    <div class="my-2 lg:my-4 flex-1 overflow-hidden">
+                        <a id="brand--header" class="brand--header" href="/" title="Home">
+                            <img height="24"
+                                 class="logo-r block"
+                                 src="svg/site-logos/upi-logo-en-us-color.svg"
+                                 alt="Ultradent Products, Inc.">
+                        </a>
+                    </div>
+
+                    <div class="flex-grow px-8">
+                        <!-- Search bar -->
+                        <div id="search-bar-wrapper--header"
+                             class="search-bar-wrapper--header pointer-events-none md:pointer-events-auto transition-opacity flex relative w-full md:max-w-sm xl:max-w-lg mx-auto lg:p-0 md:my-1 lg:my-4 bg-grey-lightest">
+                            <div id="search-bar--header"
+                                 class="flex w-full lg:flex-1 p-2 md:p-0 border-b border-solid border-grey-light md:border-none">
+                    <span class="relative flex-1 m-0">
+                        <input
+                            id="search-query--header"
+                            class="w-full h-full rounded-r-none rounded-l"
+                            type="text"
+                            placeholder="Keyword / Item#"
+                            autocomplete="off"
+                            autocapitalize="off"
+                            autocorrect="off"/>
+
+                    </span>
+                                <span data-action="search-bar-toggle--mobile"
+                                      class="md:hidden px-2 self-center text-sky-blue">Cancel</span>
+                                <button id="search-query-submit--header"
+                                        class="hidden md:block m-0 px-2 rounded-l-none rounded-r">
+
+                                    <svg class="svgi-search text-xl flex items-center">
+                                        <use xlink:href="svg/ui-defs.svg#icon-search"></use>
+                                    </svg>
+                                    <span class="a11y-only">Search</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hidden lg:flex flex-1 flex-col my-4 items-end">
+                        <div class="flex items-center">
+                            <a class="inline-block mr-8" href="/contact-us">Contact Us</a>
+                            <div class="relative inline-block expand-hit-area">
+                                <svg class="svgi-en-us text-xl">
+                                    <use xlink:href="svg/flags-round-defs.svg#icon-en-us"></use>
+                                </svg>
+                                <svg class="svgi-menu-arrow-down text-lg">
+                                    <use xlink:href="svg/ui-defs.svg#icon-menu-arrow-down"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="text-base text-right leading-tight mt-2">
+                            <strong>Always Free Shipping</strong> on orders of $295+
+                        </div>
+                    </div>
+
+                    <div id="nav-bar--mobile"
+                         class="nav-bar--mobile flex-no-grow flex-no-shrink inline-block lg:hidden my-2 lg:my-4">
+                        <div class="flex items-center text-base h-full leading-collapse">
+                            <a class="hidden md:inline-block mr-4 pl-1" href="/reorder">
+
+                                <svg class="svgi-shopping-cart-reorder text-xl">
+                                    <use xlink:href="svg/ui-defs.svg#icon-shopping-cart-reorder"></use>
+                                </svg>
+                                <span class="a11y-only">Reorder</span>
+                            </a>
+                            <span class="md:hidden mr-4 pl-1" data-action="search-bar-toggle--mobile">
+
+                    <svg class="svgi-search text-xl">
+                        <use xlink:href="svg/ui-defs.svg#icon-search"></use>
+                    </svg>
+                    <span class="a11y-only">Search</span>
+                </span>
+                            <a class="mr-4 pl-1" href="/checkout/cart">
+                    <span class="w-6 whitespace-no-wrap flex-shrink inline-block">
+
+                    <svg class="svgi-shopping-cart text-xl">
+                        <use xlink:href="svg/ui-defs.svg#icon-shopping-cart"></use>
+                    </svg>
+                    <span class="badge text-white" data-item-count="15"></span>
+                    </span>
+                                <span class="a11y-only">Cart</span>
+                            </a>
+                            <span class="pl-1" data-action="site-menu-toggle--mobile">
+
+                    <svg class="svgi-navigation-drawer text-xl">
+                        <use xlink:href="svg/ui-defs.svg#icon-navigation-drawer"></use>
+                    </svg>
+                    <span class="a11y-only">Site Menu</span>
+                </span>
+                        </div>
+                    </div>
+                </div>
+                <nav id="nav-lvl-site"
+                     class="nav-lvl-site h-12 px-0 bg-grey-darker hidden lg:flex justify-between text-grey-lightest">
+                    <ul class="nav-group-sites list-reset flex m-0 p-0 absolute z-10 pin-l translate--y text-xs txt-c1">
+                        <li class="text-white bg-grey-darker font-bold">
+                            <span class="py-2 px-8 inline-block">Products</span>
+                        </li>
+                        <li class="hover:bg-white">
+                            <a class="py-2 px-8 inline-block" href="">Events</a>
+                        </li>
+                        <li class="hover:bg-white">
+                            <a class="py-2 px-8 inline-block" href="">Our Company</a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav-group-primary list-reset flex flex-wrap flex-1 text-base m-0 px-0 leading-none">
+                        <li class="self-center">
+                            <span class="inline-block italic font-bold mx-8 text-xs">Shop by:</span>
+                        </li>
+                        <li class=" relative hover:text-white">
+            <span class="flex items-center h-full inline-block mr-6 xl:mr-8 text-inherit hover:text-inherit">
+                Formulary
+                <svg class="svgi-menu-arrow-down text-lg align-middle">
+                    <use xlink:href="svg/ui-defs.svg#icon-menu-arrow-down"></use>
+                </svg>
+            </span>
+
+
+                        </li>
+                        <li class="relative hover:text-white">
+            <span class="flex items-center h-full inline-block mr-6 xl:mr-8 text-inherit hover:text-inherit">
+                Category
+                <svg class="svgi-menu-arrow-down text-lg align-middle">
+                    <use xlink:href="svg/ui-defs.svg#icon-menu-arrow-down"></use>
+                </svg>
+            </span>
+
+
+                        </li>
+                        <li class="relative hover:text-white">
+            <span class="flex items-center h-full inline-block mr-6 xl:mr-8 text-inherit hover:text-inherit">
+                Procedure
+                <svg class="svgi-menu-arrow-down text-lg align-middle">
+                    <use xlink:href="svg/ui-defs.svg#icon-menu-arrow-down"></use>
+                </svg>
+            </span>
+                        </li>
+                        <li class="relative hover:text-white">
+            <span class="flex items-center h-full inline-block mr-6 xl:mr-8 text-inherit hover:text-inherit">
+                Chemistry
+                <svg class="svgi-menu-arrow-down text-lg align-middle">
+                    <use xlink:href="svg/ui-defs.svg#icon-menu-arrow-down"></use>
+                </svg>
+            </span>
+                        </li>
+                        <li class="relative hover:text-white hidden xl:inline">
+                            <a class="flex items-center h-full inline-block mr-6 xl:mr-8 text-inherit hover:text-inherit"
+                               href="">What's New</a>
+                        </li>
+                        <li class="relative hover:text-white hidden xl:inline">
+                            <a class="flex items-center h-full inline-block mr-6 xl:mr-8 text-inherit hover:text-inherit"
+                               href="">Sales</a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav-group-user list-reset flex flex-0 text-base m-0 px-0 leading-none">
+                        <li class="relative hover:text-white">
+                            <a class="flex items-center h-full inline-block px-4 text-inherit hover:text-inherit border-l border-solid border-grey"
+                               href="">
+
+                                <svg class="svgi-account-circle mr-2 text-xl">
+                                    <use xlink:href="svg/ui-defs.svg#icon-account-circle"></use>
+                                </svg>
+                                <span class="hidden xl:inline-block">Account</span>
+
+                                <svg class="svgi-menu-arrow-down text-lg align-middle">
+                                    <use xlink:href="svg/ui-defs.svg#icon-menu-arrow-down"></use>
+                                </svg>
+                            </a>
+
+                            <nav id="nav-menu--account"
+                                 class="nav-menu--account nav-drop-menu -mr-4 hidden absolute z-10 min-h-full shadow-md font-normal">
+
+                                <aside
+                                    class=" submenu-figure-left hidden absolute pin-t pin-r pin-b m-0 border-box min-h-full txt-c1 bg-white w-full shadow-md">
+                                    <div class="flex flex-col h-full justify-between items-center p-8 txt-c1">
+                                        <img class="mb-4" width="150" src="svg/components/upi-rewards/upi-elite.svg"
+                                             alt="Ultradent Elite"/>
+
+                                        <div class="flex flex-grow w-full text-center">
+                                            <div class="flex-1 max-w-1/2 px-4">
+                                                <p class="my-2 font-semibold">2018 Status</p>
+                                                <img width="104" src="svg/components/upi-rewards/status-gold.svg"
+                                                     alt=""/>
+                                            </div>
+                                            <div class="flex-1 max-w-1/2 px-4">
+                                                <p class="my-2 font-semibold">2019 Progress</p>
+                                                <style type="text/css">
+                                                    /* prototype code */
+                                                    #rewards-meter-needle {
+                                                        transform-origin: 50% 51px;
+                                                        transform: rotate(0deg);
+                                                        transition: transform 1000ms ease-out;
+                                                    }
+                                                    .anim #rewards-meter-needle {
+                                                        transform: rotate(270deg);
+                                                    }
+                                                </style>
+                                                <svg height="112" viewBox="0 0 104 112"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <g fill="none" fill-rule="evenodd">
+                                                        <path
+                                                            d="M75.726 97.465A51.5 51.5 0 0 0 104 51.5C104 23.076 80.924 0 52.5 0S1 23.076 1 51.5a51.5 51.5 0 0 0 28.274 45.965l7.447-14.739A34.986 34.986 0 0 1 17.514 51.5c0-19.31 15.676-34.986 34.986-34.986 19.31 0 34.986 15.676 34.986 34.986A34.986 34.986 0 0 1 68.28 82.726l7.447 14.739z"
+                                                            fill="#535353"/>
+                                                        <path
+                                                            d="M3.365 61.681A50.178 50.178 0 0 0 27.09 94.77l7.124-12.132a36.11 36.11 0 0 1-17.072-23.81L3.365 61.68z"
+                                                            fill="#F6F5F4"/>
+                                                        <path
+                                                            d="M3.704 39.802a50.175 50.175 0 0 0-.565 20.716l13.84-2.529a36.104 36.104 0 0 1 .407-14.907l-13.682-3.28z"
+                                                            fill="#B46A1F"/>
+                                                        <path
+                                                            d="M49.017 1.443c-21.421 1.49-39.52 16.446-45.02 37.202l13.599 3.605a36.11 36.11 0 0 1 32.398-26.772l-.977-14.035z"
+                                                            fill="#A7A9AC"/>
+                                                        <path
+                                                            d="M87.073 87.867A50.178 50.178 0 0 0 102.678 51.5c0-27.694-22.484-50.178-50.178-50.178-.779 0-1.557.018-2.335.054l.655 14.054c.56-.026 1.12-.04 1.68-.04 19.93 0 36.11 16.18 36.11 36.11a36.11 36.11 0 0 1-11.23 26.17l9.693 10.197z"
+                                                            fill="#B4975A"/>
+                                                        <path
+                                                            d="M77.997 94.718a50.174 50.174 0 0 0 8.233-6.068l-9.457-10.416a36.107 36.107 0 0 1-5.925 4.366l7.15 12.118z"
+                                                            fill="#696765"/>
+                                                        <g>
+                                                            <path id="rewards-meter-needle" stroke="#F8F8F8"
+                                                                  fill="#535353"
+                                                                  d="M22.799 87.375l7.062-15.016 6.157 4.986z"/>
+                                                            <path
+                                                                d="M78.364 35.294C69.437 21.01 50.62 16.665 36.336 25.592c-14.286 8.926-18.63 27.742-9.703 42.028 8.926 14.285 27.743 18.629 42.028 9.702 14.285-8.926 18.629-27.742 9.703-42.028zm.848-.53c9.219 14.754 4.732 34.188-10.021 43.407-14.754 9.219-34.187 4.732-43.406-10.022-9.22-14.753-4.733-34.186 10.02-43.405 14.754-9.22 34.188-4.733 43.407 10.02z"
+                                                                fill="#8C8C8C"
+                                                                fill-rule="nonzero"/>
+                                                        </g>
+                                                        <g fill="#535353">
+                                                            <text font-family="SourceSansPro-Bold, Source Sans Pro"
+                                                                  font-size="14"
+                                                                  font-weight="bold"
+                                                                  transform="translate(23 31)">
+                                                                <tspan x="6.186" y="33.864">$4,351</tspan>
+                                                            </text>
+                                                            <text font-family="SourceSansPro-Regular, Source Sans Pro"
+                                                                  font-size="10"
+                                                                  transform="translate(23 31)">
+                                                                <tspan x="17.815" y="10.5">Silver</tspan>
+                                                                <tspan x="2" y="19.5">Elite Member</tspan>
+                                                            </text>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+
+                                            </div>
+                                        </div>
+
+                                        <a class="link-1 block mt-4 text-xs" href="">Learn more about Ultradent
+                                            Elite</a>
+                                    </div>
+                                </aside>
+                                <div class="bg-grey-lightest relative">
+                                    <!-- {isLogged:false} login form -->
+                                    <div class="hidden txt-c1">
+
+                                        <div class="px-6 pt-4 pb-2">
+                                            <form action="/">
+                                                <fieldset class="mb-2 mt-0">
+                                                    <div class="my-2">
+                                                        <label class="a11y-only"
+                                                               for="nav-menu--username">Username</label>
+                                                        <input id="nav-menu--username" name="nav_menu_username"
+                                                               class="w-full" type="text"
+                                                               placeholder="name@example.com"/>
+                                                    </div>
+                                                    <div class="my-2">
+                                                        <label class="a11y-only"
+                                                               for="nav-menu--password">Password</label>
+                                                        <input id="nav-menu--password" name="nav_menu_password"
+                                                               class="w-full" type="password"
+                                                               placeholder="Password"/>
+                                                    </div>
+                                                    <button class="primary w-full">
+
+                                                        <svg class="svgi-lock-closed text-xl mr-2">
+                                                            <use xlink:href="svg/ui-defs.svg#icon-lock-closed"></use>
+                                                        </svg>
+                                                        Sign In
+                                                    </button>
+                                                </fieldset>
+                                                <a class="text-xs link-2" href="/forgot-password">Forgot your login of
+                                                    password?</a>
+                                            </form>
+                                        </div>
+                                        <div class="border-t border-solid border-grey-lighter bg-white text-center">
+                                            <a class="nav-item justify-center  flex w-full block px-6 py-2" href="">
+                                                New Customer?&nbsp;<span class="link-1">Register here</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- {isLogged:true} Username  -->
+                                    <div class=" txt-c1">
+                                        <div class="flex p-6 items-center">
+                                            <div class="flex-shrink">
+
+                                                <svg class="svgi-account-circle text-2xl">
+                                                    <use xlink:href="svg/ui-defs.svg#icon-account-circle"></use>
+                                                </svg>
+                                            </div>
+                                            <div class="p-2 overflow-hidden">
+                                                <p class="font-bold ellipsis">victor.william.xerxes@ultradent.com</p>
+                                                <a class="link-1 text-xs" href="/">Sign Out</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="relative text-base txt-c1">
+                                        <ul class="hidden relative list-reset w-full m-0 leading-normal border-t border-solid border-grey-lighter">
+                                            <li>
+                                                <a class="nav-item  flex w-full block px-6 py-2" href="">
+
+                                                    <svg class="svgi-ultradent-rewards text-xl mr-2">
+                                                        <use xlink:href="svg/ui-defs.svg#icon-ultradent-rewards"></use>
+                                                    </svg>
+                                                    Ultradent Elite Program
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="relative list-reset w-full m-0 leading-normal pb-4">
+                                            <li data-require-auth
+                                                class="invisible absolute flex items-center text-white pin px-6 text-xs font-bold leading-tight bg-black opacity-0 hover:opacity-90 transition-opacity cursor-not-allowed">
+                                                <i class="icon-exclamation text-xl mr-2"></i>
+
+                                                <svg class="svgi-report-problem-triangle text-xl mr-2">
+                                                    <use
+                                                        xlink:href="svg/ui-defs.svg#icon-report-problem-triangle"></use>
+                                                </svg>
+                                                <span>
+                    Please sign in above to access account features.
+                </span>
+                                            </li>
+                                            <li class="border-t border-solid border-grey-lighter">
+                                                <a class="nav-item  flex w-full block px-6 py-2" href="">
+
+                                                    <svg class="svgi-synchronize-time text-xl mr-2">
+                                                        <use xlink:href="svg/ui-defs.svg#icon-synchronize-time"></use>
+                                                    </svg>
+                                                    Order History
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-item  flex w-full block px-6 py-2" href="">
+
+                                                    <svg class="svgi-key text-xl mr-2">
+                                                        <use xlink:href="svg/ui-defs.svg#icon-key"></use>
+                                                    </svg>
+                                                    Change Password
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-item  flex w-full block px-6 py-2" href="">
+
+                                                    <svg class="svgi-credit-card text-xl mr-2">
+                                                        <use xlink:href="svg/ui-defs.svg#icon-credit-card"></use>
+                                                    </svg>
+                                                    Pay Your Bill
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-item  flex w-full block px-6 py-2" href="">
+
+                                                    <svg class="svgi-box-return text-xl mr-2">
+                                                        <use xlink:href="svg/ui-defs.svg#icon-box-return"></use>
+                                                    </svg>
+                                                    Return Items
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+
+                        </li>
+                        <li class="relative hover:text-white">
+                            <a class="flex items-center h-full inline-block px-4 text-inherit hover:text-inherit border-l border-solid border-grey"
+                               href="">
+
+                                <svg class="svgi-shopping-cart-reorder mr-2 text-xl">
+                                    <use xlink:href="svg/ui-defs.svg#icon-shopping-cart-reorder"></use>
+                                </svg>
+                                <span>Reorder</span>
+                            </a>
+                        </li>
+                        <li id="nav-item--cart"
+                            class="nav-item--cart flex items-center h-full relative text-white nowrap">
+                            <a class="flex items-center h-full inline-block px-4 text-inherit hover:text-inherit border-l border-solid border-grey"
+                               href="">
+
+                                <svg class="svgi-lock-closed mr-2 text-xl">
+                                    <use xlink:href="svg/ui-defs.svg#icon-lock-closed"></use>
+                                </svg>
+                                <span>Checkout</span>
+                            </a>
+
+                            <div
+                                class="nav-item--cart-button flex h-full items-center flex-1 inline-block px-3 pr-8 font-semibold text-center cursor-pointer relative"
+                                data-action="toggle-cart">
+                                <svg class="absolute pin-t pin-l text-grey-light" width="11" height="100%"
+                                     viewBox="0 0 11 45"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="currentColor"
+                                          d="M11.101 45.25l-.911.411L.038 23.111l10.4-24.414.92.392L1.13 23.1z"/>
+                                </svg>
+                                <span class="flex-1 whitespace-no-wrap flex-shrink inline-block pr-2">
+
+                    <svg class="svgi-shopping-cart text-xl">
+                        <use xlink:href="svg/ui-defs.svg#icon-shopping-cart"></use>
+                    </svg>
+                    <span class="badge" data-item-count="15"></span>
+                </span>
+
+                                <svg class="svgi-arrow-left-double text-lg absolute min-h-full pin-t pin-r mr-8">
+                                    <use xlink:href="svg/ui-defs.svg#icon-arrow-left-double"></use>
+                                </svg>
+                            </div>
+
+                            <div
+                                class="nav-item--cart-header flex h-full justify-between items-center px-4 font-semibold text-center bg-grey-darkest cursor-pointer absolute pin-t pin-r pin-l border-l border-solid border-grey"
+                                data-action="toggle-cart">
+                <span class="w-6 whitespace-no-wrap flex-shrink inline-block">
+
+                    <svg class="svgi-shopping-cart text-xl">
+                        <use xlink:href="svg/ui-defs.svg#icon-shopping-cart"></use>
+                    </svg>
+                    <span class="badge" data-item-count="15"></span>
+                </span>
+                                <span class="nav-item--cart-label">Cart Summary</span>
+
+                                <svg class="svgi-arrow-right-double mr-2 text-lg">
+                                    <use xlink:href="svg/ui-defs.svg#icon-arrow-right-double"></use>
+                                </svg>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
+            </header>
+
+        </div>
+        <div id="content-pane"
+             data-overlay="inactive"
+             class="content-pane relative flex flex-auto h-px mt-10 md:mt-12 lg:mt-0 lg:pt-0">
+            <div id="content-pane-scroller"
+                 class="content-pane-scroller flex flex-col items-center flex-grow w-full h-full lg:overflow-y-scroll scrolling-touch">
+
+                <!-- site message bar -->
+                <!-- end site message bar -->
+
+                <!-- START LAYOUT -->
+                <main id="page-content" class="page-content relative w-full flex-no-shrink">
+                    <div class="hidden content-filter-bar flex-0 h-10 w-full">
+                        <div
+                            class="content-filter-bar-inner absolute pin-l pin-r flex items-center pad-content h-10 border-b border-solid border-grey-lighter bg-white">
+                            <label class="input-toggle">
+                                <input id="formulary-restriction" type="checkbox"/>
+                                <span class="input-toggle--icon text-sky-blue"></span>
+                                <span class="input-toggle--label">View Formulary Items Only</span>
+                            </label>
+
+                        </div>
+                    </div>
+
+                    <div id="breadcrumb-nav"
+                         class="breadcrumb-nav w-full items-baseline relative overflow-hidden mt-0 py-4 border-b border-grey-lighter border-solid">
+                        <nav class="breadcrumbs pad-content w-max mx-auto flex-1 ellipsis">
+                            <a class="slash-forward hidden md:inline" href="/">Home</a>
+                            <a class="slash-forward hidden md:inline" href="/en-us/Dental-Products/Pages/default.aspx">Our Company</a>
+                            <span class="hidden lg:inline font-bold">About Us</span>
+                        </nav>
+                    </div>
+
+                    <div class="pb-8 text-base h-full bg-white">
+
+                        <div id="body-content" class="body-content">
+
+                            <!-- Top Section -->
+                            <div class="contain-content">
+
+                                <div id="banner-hero" class="section-divide mt-8">
+
+
+
+                                    <!--Only Include the code below this-->
+
+                                    <style type="text/css">
+                                        .contain-content {
+                                            max-width: 1344px;
+                                            margin: 0 auto;
+                                        }
+                                        #banner-hero {
+                                            background-color: #000000;
+                                            height: 180px;
+                                            overflow: hidden;
+                                            box-sizing: border-box;
+                                            position: relative;
+                                            /* border: solid gray 1px */
+                                            border-bottom: none;
+                                        }
+                                        #banner_content_wrap {
+                                            position: relative;
+                                            z-index: 2;
+                                            padding-top: 37px;
+                                        }
+                                        #video_background {
+                                            display: block;
+                                            width: 170%;
+                                            position: absolute;
+                                            top: 0;
+                                            left: -80px;
+                                            z-index: 1;
+                                            mix-blend-mode: darken;
+                                        }
+
+                                        .button {
+                                                margin-top: 100px !important;
+                                                margin-left: auto;
+                                                margin-right: auto;
+                                            }
+
+                                        .background-graidient{
+                                            display: block;
+                                            width: 100%;
+                                            height : 100%;
+                                            position: absolute;
+                                            top: 0;
+                                            
+                                            z-index: 2;
+                                            
+                                        }
+
+                                        /* small break point built into site */
+                                        @media screen and (min-width: 360px) {
+                                          #banner_content_wrap {
+                                              padding-top: 10px;
+                                          }
+
+                                          #video_background {
+                                            left: -150px;
+                                          }
+                                          .button {
+                                                margin-top: 120px !important;
+                                            }
+                                        }
+
+                                        @media screen and (min-width: 450px) {
+                                            #banner-hero {
+                                                height: 200px;
+                                            }
+                                            #banner_content_wrap {
+                                                padding-top: 37px;
+                                            }
+                                            .button {
+                                                margin-top: 120px !important;
+                                            }
+                                        }
+
+                                        /* small break point built into template only */
+                                        @media screen and (min-width: 480px) {
+                                            .button {
+                                                margin-top: 120px !important;
+                                            }
+                                            #video_background {
+                                            left: -200px;
+                                          }
+                                        }
+
+                                        @media screen and (min-width: 650px) {
+                                            #banner-hero {
+                                                height: 300px;
+                                            }
+
+                                            #banner_h1 {
+                                                font-size: 2rem;
+                                            }
+                                            #banner_content_wrap {
+                                                padding-top: 38px;
+                                            }
+                                            .button {
+                                                margin: 170px 0 0 -90px !important;
+                                            }
+                                        }
+
+                                        /* medium break point built into site & template */
+                                        @media screen and (min-width: 752px) {
+                                            #banner_content_wrap {
+                                                padding-top: 60px;
+                                            }
+                                            #video_background {
+                                                width: 150%;
+                                                left: -240px;
+                                                top: none;
+                                                bottom: 0;
+                                            }
+
+                                            .button {
+                                                margin: 170px 0 0 50px !important;
+                                            }
+                                            
+                                        }
+
+                                        @media screen and (min-width: 950px) {
+                                            #banner-hero {
+                                                height: 350px;
+                                            }
+                                            #banner_h1 {
+                                                font-size: 3rem;
+                                            }
+                                            #banner_content_wrap {
+                                                padding-top: 50px;
+                                            }
+
+                                            .button {
+                                                margin: 225px 0 0 100px !important;
+                                            }
+                                        }
+
+                                        /* large break point built into site */
+                                        @media screen and (min-width: 1025px) {
+                                            #video_background {
+                                                width: 120%;
+                                                left: -70px;
+                                            }
+                                            .button {
+                                                margin: 200px 0 0 230px !important;
+                                            }
+                                        }
+                                        @media screen and (min-width: 1340px) {
+                                            #video_background {
+                                                width: 110%;
+                                                left: -70px;
+                                                
+                                            }
+
+                                            .button {
+                                                margin: 220px 0 0 260px !important;
+                                            }
+                                        }
+                                    </style>
+                                    <a href="https://www.ultradent.com/products/categories/whitening/2019-opalescence-downloadable?s_cid=3805" target="_blank">
+                                        <div class="min-h-full flex flex-no-wrap px-4" style="background-color: #fff; background-image: url('Images_2/Image_SVG_Opalesence_downloadbles_BackGround_HomePage_Banner_Q4_2019.svg'); background-blend-mode: multiply;  background-size: cover;">
+                                            
+                                            <div id="banner_content_wrap" class="flex-none max-w-xs md:max-w-full w-full mx-auto md:w-1/2 pt-4 md:pt-8 md:pt-10 lg:pr-20">
+                                              <!-- <img class="mx-auto w-1/2 lg:w-1/2 mb-6 lg:mb-6 -mt-1 lg:-mt-4 flex justify-center" style="max-width:370px;" src="https://images.ctfassets.net/wfptrcrbtkd0/N0R6jL9VXPj9iOu8z0vZp/f8ed4fe6a064a528f4971cc1effb7bea/Image_Gemini_Landing_Page_Logo_Q2_2019.png">
+                                                <h1 id="banner_h1" class="text-xl font-normal font-sans leading-tight text-center mb-1" style="color: #FDC000 !important;">20 Watts of Peak Super-pulsed Power</h1> -->
+                                                <span class="button border-none block w-48 md:w-32 px-4 py-2 text-center" style="background-color: #009CDE !important;color:#fff!important">Learn More</span>
+                                            </div>
+                                            <div class="flex-none w-1 md:w-1/2">
+                                            </div>
+                                           
+                                            <video autoplay muted loop id="video_background" controls poster="Images_2/Image_SVG_Opalesence_downloadbles_Still_HomePage_Banner_Q4_2019.jpg">
+                                                <source src="Celest_Homepage_2.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                    </a>
+                                    <!--Only Include the code above this-->
+
+                                </div>
+                            </div>
+                            <div class="py-8 bg-grey-white border-solid border-b border-grey-lighter">
+
+                                <div class="max-w-lg mx-auto py-8 ">
+                                    <div class="space-content flex flex-col justify-center">
+                                    	<img class="logo block mb-6" src="svg/site-logos/upi-logo-en-us-color.svg" alt="Ultradent Products, Inc." height="35"><br />
+                                        <h1 class="text-3xl font-thin font-sans leading-tight text-center mb-6">Improving Oral Health Globally</h1>
+                                        <img class="mb-6" src="images/about-us-images/tour-video-thumbnail.jpg" alt="Tour Ultradent">
+                                        <h2 class="text-xl text-center leading-tight font-bold mb-2">
+                                           Our Drive to Innovate
+                                        </h2>
+                                        <p class="text-base font-normal font-sans leading-normal text-left lg:px-8 mb-8">We are driven to improve oral health globally through science, creativity, and education. Our passion to improve oral health has made Ultradent into the incredible company it is today. Ultradent is a global dental manufacturing company that has experienced non-stop growth for over 30 years! We have vertically integrated disciplines of chemistry, engineering, automation, robotics, marketing, and more. Ultradent’s products are used worldwide by dentists, orthodontists, group practices, dental labs, government agencies, and universities.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Golden Hands Section -->
+                            <div class="py-8 bg-grey-lightest border-solid border-b border-grey-lighter">
+
+                                <div class="max-w-md mx-auto py-4 ">
+                                    <div class="space-content flex flex-col justify-center">
+                                        <h2 class="text-3xl font-thin font-sans leading-tight text-center mb-6">A Strong Code of Ethics and Core Values</h2>
+
+
+                                        <h3 class="text-lg font-light font-sans leading-normal text-center mb-8">
+                                           Ultradent believes in the customer. That is why all our product development, marketing, and sales are done with the customer’s benefit in mind. We are driven by a strong moral code and our Core Values.
+                                        </h3>
+                                        <h4 class="text-xl text-center text-brand mb-6">INTEGRITY, QUALITY, HARD ​WORK, INNOVATION, CARE</h4>
+                                        <img class="mb-6" src="images/about-us-images/Golden_Hands_AwardYEAR_Reflection.png" alt="Golden Hands Award">
+                                        <h4 class="text-xl text-left mb-6">Golden Hands Award of Xcellence (2015, 2016)</h4>
+                                        <p class="text-base font-normal font-sans leading-normal text-left mb-8">
+                                           Ultradent was selected out of more than 3,000 other companies to receive the Golden Hands Award of Xcellence for Ethics and Truth in Advertising. Nominees were selected based on criteria that includes ethical conduct, placement of public health before profits, dependable products, knowledgeable personnel, and excellent customer service. The nominees were then voted on by thousands of practicing dentists across the nation.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Made in the USA -->
+                            <div class="py-8 bg-white border-solid border-b border-grey-lighter">
+
+                                <div class="max-w-md mx-auto py-4 ">
+                                   <div class="space-content flex flex-col justify-center">
+                                      <img class="mb-6" src="images/about-us-images/USA-Manufacturer.svg" alt="Proud USA Manufacturer">
+
+                                        <h2 class="text-3xl font-thin font-sans leading-tight text-center mb-6">
+                                           Made in the USA
+                                        </h2>
+                                         <img class="mb-6" src="images/about-us-images/usa-thumbnail.jpg" alt="Golden Hands Award">
+                                         <h3 class="text-xl mb-4">Ultradent is Proud to be a USA Manufacturer</h3>
+
+                                        <p class="text-base font-normal font-sans leading-normal text-left  mb-6">
+                                           Ultradent is dedicated to keeping our communities strong. Since we first established our manufacturing operation in South Jordan, Utah, in 1979, we’ve expanded to over 100 countries. But we’ve kept the majority of our professional and skilled manufacturing positions right here in the USA, providing jobs for a diverse community of Americans.
+                                        </p>
+                                        <p class="text-base font-normal font-sans leading-normal text-left  mb-8">
+                                           Our commitment to continuing local production and serving dental professionals with innovative, USA-made products and equipment is our top priority. We know that keeping jobs local helps Utah thrive.
+                                        </p>
+                                   </div>
+                                </div>
+                            </div>
+
+
+                            <div class="py-8 bg-grey-lightest bg-cover lg:bg-contain bg-right lg:bg-top bg-no-repeat" style="background-image:url('images/DrFischer_BG.jpg');" >
+                                <div class="w-max mx-auto py-8" >
+                                    <div class="space-content w-max sm:max-w-sm float-none sm:float-right">
+                                    	<h2 class="text-3xl font-thin font-sans leading-tight text-base text-center sm:text-left mb-4">Dr. Fischer and Ultradent</h2>
+                                        <p class="text-base font-normal font-sans leading-normal text-base mb-4">
+                                           Now an international leader in the dental industry, Ultradent began humbly—in Dr. Fischer’s basement, with his children as its first employees.<br /><br />
+                                           As a young dentist, Dr. Fischer realized that rapid, profound hemostasis was imperative for quality operative dentistry. Because there were no products on the market that predictably controlled bleeding and sulcular fluid, he developed one. Considered one of Ultradent’s flagship products, Astringedent®, and later Viscostat®, resulted from Dr. Fischer’s insight, determination, and willingness to work after hours—using his own blood to test his efforts—to produce exactly what he felt the market needed.<br /><br />
+                                           Over three decades later, Dr. Fischer is still revolutionizing the dental industry. He has numerous patents to his name, and regularly lectures and writes articles about state-of-the-art dentistry. He also works part-time in his daughter’s dental practice, which enables him to connect with patients and practice minimally invasive dentistry—a philosophy around which Ultradent develops products and procedures.<br /><br />
+                                           Dr. Fischer strives continuously to “Improve Oral Health Globally,” and hopes to one day discover a cure for caries. In pursuing these goals, Dr. Fischer is a generous philanthropist, regularly donating time, money,​​​​ and products to countless personal missions and organizations such as Sealants For Smiles, which places sealants on the teeth of children with limited preventative dental care. Dr. Fischer also champions The Diversity Foundation, which provides educational opportunities to vulnerable and underprivileged children, and has helped transform the lives of many young people who have been victims of FLDS polygamy.<br /><br />
+                                           When he isn’t working, he enjoys tending to his garden and spending time with his wife, children, and 30 grandchildren. Driven by a strong moral code, Dr. Fischer lives his life according to the same values that guide Ultradent.
+                                        </p>
+                                    </div>
+                                    <div class="w-full clearfix">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="py-8 bg-grey-white">
+
+                                <div class="max-w-md mx-auto pt-8 pb-0 lg:pb-8">
+                                    <div class="space-content flex flex-col justify-center">
+                                        <h2 class="text-3xl font-thin font-sans leading-tight text-center mb-4">Meet our Executive Team</h2>
+                                        <h3 class="text-lg font-light font-sans leading-normal text-center mb-8">
+                                           Great companies are made from great leaders. We are lucky to have a team of executives who bring years of experience and knowledge to Ultradent.
+                                        </h3>
+                                        <img class="block mx-auto mb-2 w-48" src="images/about-us-images/DirkJeffs.png" alt="Dirk Jeffs President of Ultradent">
+                                        <h4 class="text-lg text-center leading-tight font-bold mb-1">Dirk Jeffs</h4>
+                                        <h5 class="text-lg text-center leading-tight font-light mb-1">President of Ultradent Products, Inc.</h5>
+                                        <a href="#" class="link-1 text-center mb-0">Learn More About Dirk</a>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="w-max mx-auto pb-8" >
+                                    <div class="space-content">
+                                        <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 float-none sm:float-left px-4 pt-8 pb-0 lg:py-8 mx-0">
+                                            <div class="text-center px-4">
+                                                <img class="block mx-auto mb-2 w-48" src="images/about-us-images/ErwinFischer.png" alt="Erwin Fischer Senior Vice President">
+                                                <h4 class="text-lg text-center leading-tight font-bold mb-1">Erwin Fischer</h4>
+                                                <h5 class="text-lg text-center leading-tight font-light mb-1">Senior Vice President</h5>
+                                                <a href="#" class="link-1 text-center mb-0">LearnMore About Erwin</a>
+                                            </div>
+                                        </div>
+                                        <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 float-none sm:float-left px-4 pt-8 pb-0 lg:py-8">
+                                            <div class="text-center px-4">
+                                                <img class="block mx-auto mb-2 w-48" src="images/about-us-images/MarkBrinkerhoff.png" alt="Erwin Fischer Senior Vice President">
+                                                <h4 class="text-lg text-center leading-tight font-bold mb-1">Mark Brinkerhoff</h4>
+                                                <h5 class="text-lg text-center leading-tight font-light mb-1">Vice President of Finance</h5>
+                                                <a href="#" class="link-1 text-center mb-0">Learn More About Mark</a>
+                                            </div>
+                                        </div>
+                                        <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 float-none sm:float-left px-4 pt-8 pb-0 lg:py-8">
+                                            <div class="text-center px-4">
+                                                <img class="block mx-auto mb-2 w-48" src="images/about-us-images/ChuckAnger.png" alt="Chuck Anger Vice President of Operations">
+                                                <h4 class="text-lg text-center leading-tight font-bold mb-1">Chuck Anger</h4>
+                                                <h5 class="text-lg text-center leading-tight font-light mb-1">Vice President of Operations</h5>
+                                                <a href="#" class="link-1 text-center mb-0">Learn More About Chuck</a>
+                                            </div>
+                                        </div>
+                                        <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 float-none sm:float-left px-4 pt-8 pb-0 lg:py-8">
+                                            <div class="text-center px-4">
+                                                <img class="block mx-auto mb-2 w-48" src="images/about-us-images/NeilJessop.png" alt="Neil Jessop Vice President of Research & Development">
+                                                <h4 class="text-lg text-center leading-tight font-bold mb-1">Neil Jessop</h4>
+                                                <h5 class="text-lg text-center leading-tight font-light mb-1">Vice President of Research &amp; Development</h5>
+                                                <a href="#" class="link-1 text-center mb-0">Learn More About Neil</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="w-full clearfix">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- END #body-content -->
+                        </div>
+
+                    </div>
+                </main>
+                <!-- END LAYOUT -->
+
+
+                <svg viewBox="0 0 24 14"
+                     class="hidden"
+                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>Chevron Down</title>
+                    <defs>
+                        <g id="icons"
+                           stroke="currentColor" stroke-width="1" fill="none" fill-rule="evenodd"
+                           stroke-linecap="round" stroke-linejoin="round"
+                           transform="translate(-96.000000, -581.000000)">
+                            <g id="chevron-down" transform="translate(96.000000, 581.000000)">
+                                <polyline points="0.5 0.5 12 13.5 23.5 0.5"></polyline>
+                            </g>
+                        </g>
+                    </defs>
+                </svg>
+
+                <footer id="footer--main" class="footer--main section-footer w-full relative">
+                    <div class="footer-top relative min-w-full">
+                        <!-- Extra Footer Content -->
+                        <!-- /Extra Footer Content -->
+                    </div>
+                    <div class="footer-bottom relative min-w-full text-grey-lightest">
+                        <div class="w-max mx-auto pad-content">
+                            <div class="py-8 md:mx-8 flex flex-col md:flex-row">
+                                <section class="footer-company-info mb-4 md:mr-8 text-center md:text-left flex-shrink">
+                                    <article id="company-info" class="leading-normal">
+                                        <a id="brand--footer" class="brand--footer" alt="Ultradent Products, Inc.">
+                                            <img
+                                                src="https://www.ultradent.com/SiteCollectionImages/Logos/upi-logo-en-us-white.svg"
+                                                width="150" alt="Ultradent Products, Inc.">
+                                        </a>
+                                        <a class="block text-base font-bold hover:text-white hover:underline"
+                                           href="tel:1.888.230.1420">1.888.230.1420</a>
+                                        <a class="block text-sm font-bold hover:text-white hover:underline"
+                                           href="mailto:onlineordersupport@ultradent.com">onlineordersupport@ultradent.com</a>
+                                        <p class="text-sm">
+                                            505 West Ultradent Drive
+                                            <br/>South Jordan, UT 84095
+                                        </p>
+                                    </article>
+
+                                    <div class="social-links my-4 text-grey-lightest">
+                                        <a href="http://www.youtube.com/ultradentproducts" target="_blank"
+                                           class="inline-block br-100 mr-2">
+                                            <svg data-icon="youtube" width="24" viewBox="0 0 32 32"
+                                                 style="fill:currentColor">
+                                                <title>youtube</title>
+                                                <path
+                                                    d="M31.681 9.6c0 0-0.313-2.206-1.275-3.175-1.219-1.275-2.581-1.281-3.206-1.356-4.475-0.325-11.194-0.325-11.194-0.325h-0.012c0 0-6.719 0-11.194 0.325-0.625 0.075-1.987 0.081-3.206 1.356-0.963 0.969-1.269 3.175-1.269 3.175s-0.319 2.588-0.319 5.181v2.425c0 2.587 0.319 5.181 0.319 5.181s0.313 2.206 1.269 3.175c1.219 1.275 2.819 1.231 3.531 1.369 2.563 0.244 10.881 0.319 10.881 0.319s6.725-0.012 11.2-0.331c0.625-0.075 1.988-0.081 3.206-1.356 0.962-0.969 1.275-3.175 1.275-3.175s0.319-2.587 0.319-5.181v-2.425c-0.006-2.588-0.325-5.181-0.325-5.181zM12.694 20.15v-8.994l8.644 4.513-8.644 4.481z"></path>
+                                            </svg>
+                                        </a>
+                                        <a href="http://www.facebook.com/ultradent" target="_blank"
+                                           class="inline-block br-100 mr-2">
+                                            <svg data-icon="facebook" width="24" viewBox="0 0 32 32"
+                                                 style="fill:currentColor">
+                                                <title>facebook</title>
+                                                <path
+                                                    d="M29 0h-26c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h13v-14h-4v-4h4v-2c0-3.306 2.694-6 6-6h4v4h-4c-1.1 0-2 0.9-2 2v2h6l-1 4h-5v14h9c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3z"></path>
+                                            </svg>
+                                        </a>
+                                        <a href="http://twitter.com/#!/ultradent" target="_blank"
+                                           class="inline-block br-100 mr-2">
+                                            <svg data-icon="twitter" width="24" viewBox="0 0 32 32"
+                                                 style="fill:currentColor">
+                                                <title>twitter</title>
+                                                <path
+                                                    d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </section>
+                                <nav id="nav-lvl-footer"
+                                     class="nav-lvl-footer flex justify-between flex-grow flex-wrap w-full md:w-auto text-sm border-b md:border-0 border-solid border-grey-lighter">
+                                    <div class="nav-group-footer flex-grow md:mb-8 md:mr-4">
+                                        <a class="flex justify-between items-center md:inline py-4 md:p-0 border-t border-solid border-grey-lighter md:border-0 hover:text-white"
+                                           href="">
+                                            <h4 class="text-base">Customer Service</h4>
+
+                                            <svg class="svgi-arrow-down icon text-xl md:hidden">
+                                                <use xlink:href="svg/ui-defs.svg#icon-arrow-down"></use>
+                                            </svg>
+                                        </a>
+                                        <ul class="hidden md:block list-reset mb-8 md:m-0 md:text-xs leading-normal"
+                                            data-toggle>
+                                            <li><a class="hover:text-white hover:underline" href="/">Contact</a></li>
+                                            <li><a class="hover:text-white hover:underline" href="/">International
+                                                    Contact / Help</a></li>
+                                            <li><a class="hover:text-white hover:underline" href="/">Account</a></li>
+                                            <li><a class="hover:text-white hover:underline" href="/">Order Status</a>
+                                            </li>
+                                            <li><a class="hover:text-white hover:underline" href="/">Order
+                                                    Cancellation</a></li>
+                                            <li><a class="hover:text-white hover:underline" href="/">Return &
+                                                    Replacements</a></li>
+                                            <li><a class="hover:text-white hover:underline" href="/">Customer
+                                                    Feedback</a></li>
+                                            <li><a class="hover:text-white hover:underline" href="/">Loyalty Program /
+                                                    Ultradent Elite</a></li>
+                                            <li><a class="hover:text-white hover:underline" href="/">Pay Your Bill</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="nav-group-footer flex-grow md:mb-8 md:mr-4">
+                                        <a class="flex justify-between items-center md:inline py-4 md:p-0 border-t border-solid border-grey-lighter md:border-0 hover:text-white"
+                                           href="">
+                                            <h4 class="text-base">About</h4>
+
+                                            <svg class="svgi-arrow-down icon text-xl md:hidden">
+                                                <use xlink:href="svg/ui-defs.svg#icon-arrow-down"></use>
+                                            </svg>
+                                        </a>
+                                        <ul class="hidden md:block list-reset mb-8 md:m-0 md:text-xs leading-normal"
+                                            data-toggle>
+                                            <li><a class="hover:text-white hover:underline" href="/">About Ultradent</a>
+                                            </li>
+                                            <li><a class="hover:text-white hover:underline" href="/">Careers</a></li>
+                                            <li><a class="hover:text-white hover:underline" href="/">Upcoming Events</a>
+                                            </li>
+                                            <li><a class="hover:text-white hover:underline" href="/">Mission Statement /
+                                                    Values</a></li>
+                                            <li><a class="hover:text-white hover:underline" href="/">Press / News</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="nav-group-footer flex-grow md:mb-8 md:mr-4">
+                                        <a class="flex justify-between items-center md:inline py-4 md:p-0 border-t border-solid border-grey-lighter md:border-0 hover:text-white"
+                                           href="">
+                                            <h4 class="text-base">Resources</h4>
+
+                                            <svg class="svgi-arrow-down icon text-xl md:hidden">
+                                                <use xlink:href="svg/ui-defs.svg#icon-arrow-down"></use>
+                                            </svg>
+                                        </a>
+                                        <ul class="hidden md:block list-reset mb-8 md:m-0 md:text-xs leading-normal"
+                                            data-toggle>
+                                            <li><a class="hover:text-white hover:underline" href="/">Government
+                                                    Customers</a></li>
+                                            <li><a class="hover:text-white hover:underline" href="/">Large Group
+                                                    Customers</a></li>
+                                            <li><a class="hover:text-white hover:underline" href="/">University
+                                                    Customers</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="nav-group-footer flex-grow md:mb-8 md:mr-4">
+                                        <a class="flex justify-between items-center md:inline py-4 md:p-0 border-t border-solid border-grey-lighter md:border-0 hover:text-white"
+                                           href="">
+                                            <h4 class="text-base">Special Accounts</h4>
+
+                                            <svg class="svgi-arrow-down icon text-xl md:hidden">
+                                                <use xlink:href="svg/ui-defs.svg#icon-arrow-down"></use>
+                                            </svg>
+                                        </a>
+                                        <ul class="hidden md:block list-reset mb-8 md:m-0 md:text-xs leading-normal"
+                                            data-toggle>
+                                            <li><a class="hover:text-white hover:underline" href="/">Marketing
+                                                    Materials</a></li>
+                                            <li><a class="hover:text-white hover:underline" href="/">SDS</a></li>
+                                            <li><a class="hover:text-white hover:underline" href="/">Product
+                                                    Instructions</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div
+                                class="py-4 mt-4 md:flex justify-between text-xs leading-normal border-t border-solid border-grey-lighter">
+                                <p class="align-left mb-2">© Copyright 2018 Ultradent Products Inc. All Rights
+                                    Reserved.</p>
+                                <div>
+                                    <a class="text-inherit py-1 pr-4 border-r border-solid border-grey-lighter hover:text-white hover:underline"
+                                       href="">Privacy Policy</a>
+                                    <a class="py-1 px-4 border-r border-solid border-grey-lighter hover:text-white hover:underline"
+                                       href="">Terms of Use</a>
+                                    <a class="py-1 px-4 border-r border-solid border-grey-lighter hover:text-white hover:underline"
+                                       href="">Legal</a>
+                                    <a class="py-1 pl-4 hover:text-white hover:underline" href="">Site Map</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+            </div> <!-- #content-pane-scroller -->
+        </div>
+        <div id="nav-site--mobile" data-overlay="inactive"
+             class="nav-site--mobile lg:hidden fixed pin z-10 overflow-hidden h-full">
+            <div data-action="site-menu-toggle--mobile"></div>
+            <span class="absolute pin-l pin-t leading-none p-2 text-xl text-white z-10"
+                  data-action="site-menu-toggle--mobile">
+        <svg class="svgi-remove text-xl mr-2">
+            <use xlink:href="svg/ui-defs.svg#icon-remove"></use>
+        </svg>
+    </span>
+
+
+        </div>
+    </div> <!-- #container -->
+
+</form>
+</body>
+</html>
+
+​​​​​​​​​​​​​​​​​​​​​​​​​​​

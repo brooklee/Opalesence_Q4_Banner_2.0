@@ -1,0 +1,143 @@
+/*Main Homepage content css- Do not edit or detlete anything in this section */
+/*Main Banner Wrapper CSS */
+.home-page-banner-proportion {width:100%; height: 350px; overflow: hidden;
+	-webkit-transition: height 1s; /* For Safari 3.1 to 6.0 */
+	-moz-transition: height 1s;
+	-o-transition: height 1s;
+    transition: height 1s;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 949px){
+	.home-page-banner-proportion {height: 300px;}
+}
+@media screen and (max-width: 649px){
+	.home-page-banner-proportion {height: 230px;}
+
+}
+@media screen and (max-width: 449px){
+	.home-page-banner-proportion {height: 180px;}
+}
+/*end main banner wrapper section*/
+
+/*Homepage-UE section styles*/
+.ue-homepage-header{background-image: url(/SiteCollectionImages/homepage/homepage-ue-section-br-repeat.gif); background-repeat: repeat-x;height: 37px;}
+#ue-homepage-logos{float: right;}
+/*end homepage ue section styles*/
+
+/*End main homepage content css- do not edit or delete anything above this line */
+
+
+
+
+
+#dr-fischer-banner {
+    padding:10px 0 0;
+    background-image:url(/SiteCollectionImages/homepage/docbg.jpg);
+    background-position:top right;
+    background-repeat:no-repeat;
+}
+.quote {
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 15px;
+}
+
+.doc-block {
+
+	margin: 45px 0 0 100px;
+	width: 50%;
+
+}
+.doc-block a {
+	color: #e35205;
+	font-weight: bold;
+	text-decoration: none;
+	padding-bottom:20px;
+}
+#dr-fischer-clinical {
+	margin-right: 60px;
+	width: 40%;
+	max-width:350px;
+}
+
+
+
+
+
+
+/* August 2014 Find Banner*/
+	.right-find {float: right;}
+	.left-find {float: left;}
+	.clear-find {clear:both;}
+	#findBannerLink {text-decoration: none; display:inline; display: block;}
+	#find-banner-wrapper {background:#FFF url("https://www.ultradent.com/en-us/PublishingImages/homepage-banners/2014/august-responsive-banners/find-baner/find-bg-repeat.png") repeat-x  center left; height: 100%; padding: 20px 40px; position:relative;-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;-webkit-font-smoothing: antialiased; color:#616161; font-size: 18px; }
+	#find-inner-wrapper {width:100%; margin-left: auto; margin-right: auto;max-width: 950px; height: 100%;-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+	#new-product-icon{position: absolute; top:5px; left: 0; max-width: 109px;}
+	#find-logo-wrapper{width: 30%; max-width: 220px; padding:0 15px;  display: block; height: 80%; margin-top: 3%; float:left; background: transparent url("https://www.ultradent.com/en-us/PublishingImages/homepage-banners/2014/august-responsive-banners/find-baner/logo-repeater.png")  repeat-y  top center; -webkit-background-size:100%; -moz-background-size:100%; -o-background-size:100%; background-size:100%; -moz-border-radius: 6px; border-radius: 6px; text-align: center;}
+	#find-logo{ margin:35% auto 0; width: 80%; max-width:176px; display: block; }
+
+	#find-product-shot{margin-left: -160px; width: 35%; max-width:321px; background: url("https://www.ultradent.com/en-us/PublishingImages/homepage-banners/2014/august-responsive-banners/find-baner/find-product-shot.png") no-repeat center;-webkit-background-size:contain; -moz-background-size:contain; -o-background-size:contain; background-size:contain; display: block; float: right; height: 100%;}
+	#find-banner-content { width:41%; max-width: 500px; padding: 0 5%; margin-top: 8%; float: left; display: block;position: relative;}
+	#find-banner-content p, a {font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;-webkit-font-smoothing: antialiased; color:#616161;}
+	#find-heading{font-size: 30px; text-transform: uppercase;margin-bottom: 10px;text-shadow: 1px 0px 5px rgba(255, 255, 255, 1);}
+	#find-description{text-shadow: 1px 0px 5px rgba(255, 255, 255, 0.9);}
+	#find-banner-button{margin-top:30px;background-color:#0e84aa; width: 160px; padding:6px 0 8px; display: block; text-align: center; font-weight: bold;color: #FFF;-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; text-decoration: none;}
+	#find-banner-button:hover {background-color:#0b6784; }
+
+	@media screen and (max-width:912px){
+		#find-banner-content{padding:0 2%;}
+		#find-heading{font-size:28px;}
+		#find-description {font-size: 17px; line-height: 20px;}
+		#find-banner-button {margin-top: 25px;}
+	}
+
+	@media screen and (max-width:856px){
+		#find-product-shot{margin-left: -205px;}
+		#find-banner-content{padding-right: 0;}
+				#find-heading{font-size:26px;}
+		#find-description {font-size: 16px; line-height: 20px;}
+	}
+
+	@media screen and (max-width:856px){
+		#find-banner-content{padding-left: 5px;}
+
+	}
+
+	@media screen and (max-width:719px){
+		#find-banner-content{max-width: 260px;}
+	}
+
+	@media screen and (max-width:706px){
+		#find-banner-wrapper{padding: 20px;}
+	}
+
+	@media screen and (max-width:662px){
+		#find-heading{font-size:24px;}
+	}
+
+	@media screen and (max-width:649px){
+		#new-product-icon{width:70px;}
+		#find-logo-wrapper{height: 90%; margin-top: 2%;}
+		#find-heading{font-size:17px;}
+		#find-description{font-size: 13px; line-height: 16px;}
+		#find-banner-button{margin-top:20px;background-color:#0e84aa; width: 150px; padding:6px 0 8px; -webkit-border-radius: 6px;display: block; text-align: center; font-weight: bold;color: #FFF; -moz-border-radius: 6px; border-radius: 6px; text-decoration: none; font-size: 14px;}
+	}
+
+	@media screen and (max-width:449px){
+		#find-banner-wrapper{padding:0;background-image: none;}
+		#find-logo-wrapper{width: 200px; height: 50%; margin: 0 0 0 -15px;background-image: none; }
+		#find-logo { width:132px; margin-top: 20px;}
+		#new-product-icon {bottom:5px; top: auto;}
+		#find-banner-button {margin-top: 0; display: block; width:128px; background-color: #FFF; color: #59a0be; font-weight: normal; font-size: 15px;}
+		#find-banner-button:hover{background-color: #FFF;}
+		#find-banner-content{position: absolute; top: 94px; left: 35px; padding: 0; display: block; margin-top: 0;}
+		#find-heading {display: none;}
+		#find-description {display: none;}
+		#find-product-shot {width: 170px; margin-top: 10px; margin-right: 10%}
+	}
+
+	/*  End August 2014 Find Banner*/

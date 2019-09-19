@@ -1,0 +1,3 @@
+.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}.clearfix{*zoom:1}.body-content{box-sizing:border-box;padding:20px 10px}@media only screen and (min-width: config("screens.lg")){.body-content{padding-left:2rem;padding-right:2rem}}@media (max-width: config("screens.md")){.body-content{display:flex;flex-direction:column}.distributorList{order:9}}#productContent{padding:0 0 50px;overflow:hidden;background:#ffffff}
+
+/*# sourceMappingURL=distributors.css.map */
